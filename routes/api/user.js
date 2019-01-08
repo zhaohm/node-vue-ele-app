@@ -61,7 +61,7 @@ router.post('/login', (req, res) => {
               const rule = {
                 id: user.id,
                 name: user.name,
-                avatat:user.avatar,
+                avatar:user.avatar,
                 identity:user.identity
               };
               //参数1：token生成规则

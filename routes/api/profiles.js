@@ -85,7 +85,7 @@ router.post('/edit/:id', passport.authenticate('jwt', {session: false}), (req, r
     .catch(err => res.json('修改条目失败'))
 });
 
-//@router delete  /api/profiles/edit/:id
+//@router delete  /api/profiles/delete/:id
 //@desc 编辑单个条目
 //@access Private
 
